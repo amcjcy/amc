@@ -3,7 +3,7 @@ name: sync-code
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 0-16,22-23 * * *'
+    - cron: '5 * * * 1'
 
 jobs:
   build:
